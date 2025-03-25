@@ -60,12 +60,12 @@ public class QuickSort {
             nums[i] = scanner.nextInt();
         }
 
-        System.out.println("Before implementing Merge Sort ");
+        System.out.println("Before implementing Quick Sort ");
         printArr(nums);
 
         qs(nums,0,nums.length-1);
 
-        System.out.println("After implementing Merge Sort ");
+        System.out.println("After implementing Quick Sort ");
 
         printArr(nums);
     }
