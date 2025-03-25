@@ -58,14 +58,14 @@ public class HeapSort {
             nums[i] = scanner.nextInt();
         }
 
-        System.out.println("Before implementing Quick Sort ");
+        System.out.println("Before implementing Heap Sort ");
         printArr(nums);
 
         //qs(nums,0,nums.length-1);
 
         heapSort(nums,nums.length);
 
-        System.out.println("After implementing Quick Sort ");
+        System.out.println("After implementing Heap Sort ");
 
         printArr(nums);
     }
